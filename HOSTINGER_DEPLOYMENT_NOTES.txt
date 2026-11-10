@@ -1,0 +1,24 @@
+SPAAHOLIC WELLNESS — PRODUCTION DOMAIN PACKAGE
+==============================================
+
+Production canonical domain: https://www.spaaholic.in/
+
+Applied:
+- Updated canonical, Open Graph, Twitter, structured-data, internal absolute links,
+  sitemap.xml and robots.txt to the www.spaaholic.in host.
+- Installed the standard Google Tag Manager container snippet (GTM-TDFQ4W2H)
+  in the head of all five HTML pages.
+- Added the GTM noscript iframe immediately after body on all five pages.
+- Updated the Vercel redirect configuration so the bare domain redirects to www.
+
+Design, CSS, images, fonts, page copy and animations were not intentionally changed.
+
+After uploading to Hostinger:
+1. Upload the contents of this folder into public_html (so index.html is directly
+   inside public_html, not nested one folder deeper).
+2. The included .htaccess redirects HTTP and the bare domain to https://www.spaaholic.in/.
+   Connect both www and bare-domain DNS records to Hostinger and enable SSL for both.
+3. Confirm https://www.spaaholic.in/ loads over HTTPS.
+4. Test /robots.txt and /sitemap.xml, then add the final URL-prefix property and
+   verify ownership in Google Search Console.
+5. Test the GTM container with Tag Assistant after the production site is live.

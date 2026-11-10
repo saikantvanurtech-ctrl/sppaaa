@@ -1,0 +1,65 @@
+/* Local landing page styles */
+.local-seo-page{max-width:1180px;margin:0 auto;padding:26px 24px 72px;color:#27231e}
+.local-breadcrumb{display:flex;gap:10px;align-items:center;font-size:.88rem;color:#786f65;margin:10px 0 28px}
+.local-breadcrumb a,.local-inline-link a{color:#8b6338;text-decoration:underline;text-underline-offset:3px}
+.local-hero{padding:clamp(38px,7vw,86px) clamp(22px,5vw,64px);border-radius:18px;background:linear-gradient(135deg,#f2ece2,#e8dfd1);}
+.local-eyebrow{font-size:.75rem;letter-spacing:.16em;font-weight:700;color:#967147;text-transform:uppercase;margin:0 0 12px}
+.local-hero h1{max-width:850px;font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.02;font-weight:600;margin:0 0 20px;color:#27231e}
+.local-lead{max-width:780px;font-size:1.08rem;line-height:1.8;color:#50483f}
+.local-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.local-btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:12px 20px;border:1px solid #8d714d;border-radius:3px;color:#4a3928;text-decoration:none;font-weight:600;font-size:.92rem}
+.local-btn-primary{background:#3d3329;color:#fff;border-color:#3d3329}
+.local-section{padding:64px 0 12px}
+.local-section-heading{max-width:760px;margin-bottom:26px}
+.local-section-heading h2,.local-final-cta h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2rem,4vw,3.15rem);line-height:1.1;margin:0 0 12px;color:#29231d}
+.local-section-heading>p:last-child,.local-why>p{line-height:1.8;color:#62594e}
+.local-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.local-facts article,.local-treatment-grid article{padding:22px;border:1px solid #e6dfd5;background:#fff;border-radius:8px}
+.local-facts h3,.local-treatment-grid h3{font-size:1rem;margin:0 0 10px;color:#8a633d}
+.local-facts p,.local-treatment-grid p{font-size:.94rem;line-height:1.7;margin:0;color:#5d554b}
+.local-facts a{color:#6d4c2e;text-decoration:underline;text-underline-offset:3px}
+.local-treatment-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.local-inline-link{margin-top:22px;font-weight:600}
+.local-why{padding:50px 34px;background:#f7f4ef;border-radius:12px;margin-top:48px}
+.local-faq{border-top:1px solid #e4ddd3}
+.local-faq details{border-bottom:1px solid #e4ddd3;padding:18px 4px}
+.local-faq summary{font-weight:650;cursor:pointer;color:#3c342b}
+.local-faq details p{line-height:1.75;color:#62594e;max-width:850px;margin:12px 0 0}
+.local-map-frame{height:390px;overflow:hidden;border-radius:10px;border:1px solid #e5ddd2}
+.local-map-frame iframe{width:100%;height:100%;border:0}
+.local-final-cta{margin-top:60px;padding:48px 28px;text-align:center;background:#302820;color:#fff;border-radius:12px}
+.local-final-cta h2{color:#fff}.local-final-cta p{color:#e5dbce;line-height:1.7}.local-final-cta .local-actions{justify-content:center}.local-final-cta .local-btn{color:#fff;border-color:#c8ad8a}.local-final-cta .local-btn-primary{background:#b18b5e;border-color:#b18b5e;color:#211a14}
+@media(max-width:850px){.local-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.local-treatment-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.local-seo-page{padding:18px 16px 48px}.local-facts,.local-treatment-grid{grid-template-columns:1fr}.local-hero{padding:36px 22px}.local-why{padding:32px 22px}.local-map-frame{height:300px}.local-btn{width:100%}}
+
+/* Homepage local SEO content */
+.home-local-seo{padding:64px 24px;background:#f8f5ef}
+.home-local-seo-inner{max-width:1120px;margin:0 auto}
+.home-local-seo h2,.home-local-seo h3{font-family:'Cormorant Garamond',Georgia,serif;color:#29231d;line-height:1.12}
+.home-local-seo h2{font-size:clamp(2rem,4vw,3.1rem);margin:10px 0 16px}
+.home-local-seo h3{font-size:1.8rem;margin:30px 0 16px}
+.home-local-seo p{max-width:900px;color:#5d554b;line-height:1.8}
+.home-local-service-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0}
+.home-local-service-grid article{background:#fff;border:1px solid #e6dfd5;border-radius:8px;padding:20px}
+.home-local-service-grid h4{margin:0 0 8px;color:#8a633d;font-size:1rem}
+.home-local-service-grid p{font-size:.92rem;margin:0}
+.home-local-note{font-size:.88rem;font-style:italic}
+.home-local-link{display:inline-block;margin-top:8px;color:#765333;font-weight:700;text-underline-offset:4px}
+.home-why-intro{max-width:760px;color:#62594e;line-height:1.75;margin:12px 0 0}
+@media(max-width:850px){.home-local-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.home-local-seo{padding:44px 18px}.home-local-service-grid{grid-template-columns:1fr}}
+
+
+/* Destination contact redesign: keep phone and WhatsApp details clear and individually actionable. */
+.contact-info-panel .contact-hours-detail{padding-bottom:18px}
+.destination-contact-list{display:grid;gap:10px;margin:14px 0 8px}
+.destination-contact-item{display:flex;align-items:center;gap:13px;min-width:0;padding:13px 14px;border:1px solid rgba(213,165,78,.28);border-radius:14px;color:#f5eee5;text-decoration:none;background:rgba(255,255,255,.035);transition:background .25s ease,border-color .25s ease,transform .25s ease}
+.destination-contact-item:hover{transform:translateY(-2px);background:rgba(255,255,255,.085);border-color:rgba(213,165,78,.72)}
+.destination-contact-icon{width:39px;height:39px;flex:0 0 39px;display:grid;place-items:center;border-radius:50%;font-size:17px;background:rgba(213,165,78,.14);color:#e7bd70}
+.destination-whatsapp .destination-contact-icon{background:rgba(19,148,71,.17);color:#45d483}
+.destination-contact-copy{display:grid;gap:4px;min-width:0}
+.destination-contact-copy small{font-size:9px;line-height:1.2;letter-spacing:.16em;font-weight:800;color:#b7a99f}
+.destination-contact-copy strong{font-size:15px;line-height:1.3;letter-spacing:.025em;color:#fff;font-weight:650;white-space:nowrap}
+.destination-contact-arrow{margin-left:auto;color:#a99b91;font-size:12px;flex:0 0 auto}
+.contact-info-panel .facility-call{display:flex;gap:9px;align-items:center}
+@media(max-width:600px){.destination-contact-item{padding:12px}.destination-contact-copy strong{font-size:14px}}
